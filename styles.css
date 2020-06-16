@@ -47,13 +47,21 @@ body{
   position:relative;
   padding-bottom:30px;
 }
-.images{
-  position: relative;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;
+
+.images img{
+  display: block;
+	max-width: 100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+@media only screen and (max-width: 700px){
+  .images img{
+    max-width:30%;
+    height:auto
+  }
 }
 .footer {
    position:relative;
