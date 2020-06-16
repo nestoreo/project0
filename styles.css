@@ -16,6 +16,15 @@
   border-bottom-right-radius: 10px;
   -moz-border-radius-bottomright: 10px;
 }
+.footer{
+  display:flex;
+  align-self:flex-end;
+  color:white;
+  font-size:10px;
+  position: fixed;
+  bottom:5px;
+}
+
 .NAVIGATION:hover{
   background-color: gray;
   color:white;
